@@ -26,7 +26,7 @@ def perform_eda():
     plt.show()
 
 # Load the dataset from local file
-file_path = "C:/Users/said0/Downloads/adult.data"
+file_path = "adult.data"
 df = pd.read_csv(file_path, names=column_names, sep=r'\s*,\s*', engine='python')
 
 # Basic info
